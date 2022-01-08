@@ -17,7 +17,7 @@ if size == "S":
   
   if extra_cheese == "Y":
     bill += 1
-  print(f"${bill}")
+  print(f"Your final bill is: ${bill}")
 
 elif size == "M":
   bill = 20
@@ -27,7 +27,7 @@ elif size == "M":
   
   if extra_cheese == "Y":
     bill += 1
-  print(f"${bill}")
+  print(f"Your final bill is: ${bill}")
 
 else:
   bill = 25
@@ -37,7 +37,7 @@ else:
   
   if extra_cheese == "Y":
     bill += 1
-  print(f"${bill}")
+  print(f"Your final bill is: ${bill}")
 
 
 
