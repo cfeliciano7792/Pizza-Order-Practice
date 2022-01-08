@@ -11,9 +11,21 @@ bill = 0
 
 if size == "S":
   bill = 15
+
+  if add_pepperoni == "Y":
+    bill += 2
+  
+  if extra_cheese == "Y":
+    bill += 1
+  print(bill)
+  
+
+
+
 elif size == "M":
   bill = 20
 else:
   bill = 25
+
 
 
