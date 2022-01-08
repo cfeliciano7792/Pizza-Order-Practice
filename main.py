@@ -7,7 +7,13 @@ extra_cheese = input("Do you want extra cheese? Y or N ")
 
 #Write your code below this line 👇
 
+bill = 0
 
-
+if size == "S":
+  bill = 15
+elif size == "M":
+  bill = 20
+else:
+  bill = 25
 
 
